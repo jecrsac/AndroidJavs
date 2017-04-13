@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/m18800"
+    android:paddingLeft="@dimen/m18800"
+    android:paddingRight="@dimen/m18800"
+    android:paddingTop="@dimen/m18800"
+    tools:context="com.jace.developers.alyssa.X99999.SX.SXNW">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fnd_02"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/app_name"
+        android:alpha="0.6" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="end|bottom"
+        android:contentDescription="@string/app_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/m18800"
+        android:paddingLeft="@dimen/m18809"
+        android:paddingRight="@dimen/m18809"
+        android:paddingTop="@dimen/m18800"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:gravity="center"
+        android:layout_gravity="top">
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:fillViewport="true"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/m18802"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:text="@string/sin_99100"
+                    android:textColor="@color/CCP02"
+                    android:textSize="12pt"
+                    android:textStyle="bold|italic"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:textAlignment="center" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_snnu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/m18804">
+
+                    <EditText
+                        android:id="@+id/R99100"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/f88101"
+                        android:layout_marginTop="@dimen/m18806"
+                        android:paddingLeft="@dimen/m18803"
+                        android:paddingRight="@dimen/m18803"
+                        android:hint="@string/snt_99000_frm"
+                        android:textColorHint="@color/CNT00"
+                        android:textColor="@color/CNT00"
+                        android:textStyle="normal"
+                        android:textSize="@dimen/CLS03"
+                        android:gravity="center_vertical"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:inputType="textCapCharacters|textNoSuggestions"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_snas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/m18804">
+
+                    <EditText
+                        android:id="@+id/R99200"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/f88101"
+                        android:layout_marginTop="@dimen/m18806"
+                        android:paddingLeft="@dimen/m18803"
+                        android:paddingRight="@dimen/m18803"
+                        android:hint="@string/crd_36100_frm"
+                        android:textColorHint="@color/CNT00"
+                        android:textColor="@color/CNT00"
+                        android:textStyle="normal"
+                        android:textSize="@dimen/CLS03"
+                        android:gravity="center_vertical"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:inputType="textCapCharacters|textNoSuggestions"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_snpo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/m18804">
+
+                    <EditText
+                        android:id="@+id/R99300"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/f88101"
+                        android:layout_marginTop="@dimen/m18804"
+                        android:paddingLeft="@dimen/m18803"
+                        android:paddingRight="@dimen/m18803"
+                        android:hint="@string/snt_99100_frm"
+                        android:textColorHint="@color/CNT00"
+                        android:textColor="@color/CNT00"
+                        android:textStyle="normal"
+                        android:textSize="@dimen/CLS03"
+                        android:gravity="center_vertical"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:inputType="textCapCharacters|textNoSuggestions"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/m18806">
+
+                    <Button
+                        android:id="@+id/R99400"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/f88101"
+                        android:layout_marginTop="@dimen/m18804"
+                        android:text="@string/crd_36105_frm"
+                        android:textColor="@color/CNTFF"
+                        android:textSize="@dimen/CLS04"
+                        android:textAlignment="center"
+                        android:gravity="center_vertical" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,184 @@
+<resources>
+
+    <string name="app_name">Alyssa</string>
+    <string name="app_load">LOADING…</string>
+    <string name="app_legales">Alyssa S.A. de C.V. - © 2016 TODO LOS DERECHOS RESERVADOS</string>
+    <string name="app_message">"-  NO SE ENCONTRARON REGISTROS -"</string>
+
+    <!-- Registry Form -->
+    <string name="crd_73000">REGISTRO AJUSTADOR</string>
+    <string name="crd_36100_frm">NOMBRE (S)</string>
+    <string name="crd_36101_frm">APELLIDOS</string>
+    <string name="crd_36102_frm">TELEFONO</string>
+    <string name="crd_36103_frm">CORREO ELECTRONICO</string>
+    <string name="crd_36105_frm">GUARDAR</string>
+    <string name="crd_36106_frm">CANCELAR</string>
+    <string name="crd_36107_frm">FOTO</string>
+    <string name="crd_36108_frm">ESTATUS</string>
+
+    <string name="err_msg_no">CAPTURA TU NOMBRE (S)</string>
+    <string name="err_msg_ap">CAPTURA TUS APELLIDOS</string>
+    <string name="err_msg_tl">CAPTURA UN TELEFONO VALIDO</string>
+    <string name="err_msg_ce">CAPTURA UN CORREO VALIDO</string>
+
+    <!-- Siniestros Form -->
+    <string name="sin_99100">NUEVO SINIESTRO</string>
+    <string name="sin_99101">SINIESTRO</string>
+    <string name="sin_99102">CONFIRMAR ARRIBO</string>
+    <string name="sin_99103">FAVOR DE CAPTURAR LAS PLACAS</string>
+    <string name="sin_99104">PARA CONFIRMAR ARRIBO</string>
+    <string name="sin_99105">NUMERO DE PLACAS</string>
+    <string name="sin_99106">OMITIR</string>
+    <string name="sin_99107">CONTINUAR</string>
+
+    <!-- Registry Siniestro -->
+    <string name="snt_99000_frm">NUMERO DE SINIESTRO</string>
+    <string name="snt_99100_frm">POLIZA</string>
+    <string name="snt_99200_frm">CONTINUAR</string>
+    <string name="snt_99201_frm">EL SINIESTRO</string>
+    <string name="snt_99202_frm">SE REGISTRO EXITOSAMENTE</string>
+    <string name="snt_99203_frm">PARA CONTINUAR PRESIONA</string>
+    <string name="snt_99204_frm">EL SIGUIENTE BOTON</string>
+    <string name="snt_99205_frm">UBICACION</string>
+    <string name="snt_99206_frm">COMENTARIOS</string>
+
+    <string name="err_msg_sn">NUMERO DE SINIESTRO NO VALIDO</string>
+    <string name="err_msg_as">CAPTURA UN NOMBRE</string>
+    <string name="err_msg_po">CAPTURA UN NUMERO DE POLIZA</string>
+    <string name="err_msg_cm">CAPTURA UN COMENTARIO</string>
+    <string name="err_msg_pl">CAPTURA UN NUMERO DE PLACAS</string>
+
+    <!-- Cancel Siniestro -->
+    <string name="snt_99201_cnl">SINIESTRO CANCELADO</string>
+    <string name="snt_99202_cnl">PARA CONTINUAR PRESIONA</string>
+    <string name="snt_99203_cnl">EL SIGUIENTE BOTON</string>
+    <string name="snt_99204_cnl">HA SIDO CANCELADO</string>
+    <string name="snt_99205_cnl">HA SIDO FINALIZADO</string>
+
+    <!-- Follow Siniestro -->
+    <string name="snt_33100_flw">INICIAR</string>
+    <string name="snt_33200_flw">CANCELAR</string>
+    <string name="snt_33300_flw">NO LOCALIZADO</string>
+    <string name="snt_33400_flw">ARREGLO</string>
+    <string name="snt_33500_flw">RECHAZADO</string>
+    <string name="snt_33600_flw">ACEPTAR</string>
+    <string name="snt_33700_flw">ARRIBO</string>
+    <string name="snt_33800_flw">SINIESTRO</string>
+    <string name="snt_33900_flw">ACEPTAR</string>
+    <string name="snt_33901_flw">RECHAZAR</string>
+
+    <!-- Siniestro Adapter -->
+    <string name="sn_76500">SINIESTRO</string>
+    <string name="sn_76501">POLIZA</string>
+    <string name="sn_76502">ESTATUS</string>
+    <string name="sn_76503">FECHA</string>
+
+    <!-- Resultados -->
+    <string name="res_84750"><b>COMENTARIOS</b></string>
+
+    <!-- Deslinde -->
+    <string name="des_10620">GUIA DE DESLINDE</string>
+    <string name="des_10621">CIRCUNSTANCIAS</string>
+    <string name="des_10622">A</string>
+    <string name="des_10623">B</string>
+    <string name="des_10624">RESPONSABILIDAD</string>
+    <string name="des_10625">MODIFICAR RESPONSABILIDAD</string>
+    <string name="des_10626">-</string>
+    <string name="des_10627">REGRESAR</string>
+    <string name="des_10628">CAMBIAR</string>
+    <string name="des_10629">CONTINUAR</string>
+
+    <!-- Responsabilidad -->
+    <string name="Responsabilidad">RESPONSABILIDAD</string>
+    <string-array name="res_arrays">
+        <item>--</item>
+        <item>RA</item>
+        <item>RB</item>
+        <item>RC</item>
+        <item>NP</item>
+    </string-array>
+
+
+    <!-- DUA Asegurado -->
+    <string name="dua_95700">ASEGURADORA</string>
+    <string name="dua_95701">SELECCIONA UNA ASEGURADORA</string>
+    <string name="dua_95702">NUMERO DE POLIZA</string>
+    <string name="dua_95703">NUMERO DE SINIESTRO</string>
+    <string name="dua_95704">VIGENCIA DE</string>
+    <string name="dua_95705">AL</string>
+    <string name="dua_95706">COBERTURA</string>
+    <string name="dua_95707">COBRANZA</string>
+
+    <string name="dua_95708">ASEGURADO</string>
+    <string name="dua_95709">NOMBRE</string>
+    <string name="dua_95710">APELLIDO PATERNO</string>
+    <string name="dua_95711">APELLIDO MATERNO</string>
+    <string name="dua_95712">TELEFONO</string>
+
+    <string name="dua_95713">VEHICULO</string>
+    <string name="dua_95714">MARCA</string>
+    <string name="dua_95715">TIPO</string>
+    <string name="dua_95716">MODELO</string>
+    <string name="dua_95717">COLOR</string>
+    <string name="dua_95718">PLACAS</string>
+    <string name="dua_95719">USO</string>
+    <string name="dua_95720">SERIE (VIN)</string>
+
+    <string name="dua_95721">CONDUCTOR</string>
+    <string name="dua_95722">EDAD</string>
+    <string name="dua_95723">DIRECCION</string>
+    <string name="dua_95724">E-MAIL</string>
+    <string name="dua_95725">NUMERO DE LICENCIA</string>
+    <string name="dua_95726">TIPO DE LICENCIA</string>
+    <string name="dua_95727">VIGENCIA</string>
+    <string name="dua_msg_err">DEBES LLENAR TODOS LOS CAMPOS</string>
+
+    <!-- Formulario Tercero -->
+    <string name="frm_10620">NOMBRE DEL BENEFICIARIO</string>
+    <string name="frm_10621">DESCRIPCION DEL DAÑO</string>
+    <string name="frm_10622">TIPO DE PAGO QUE SE ENTREGA</string>
+    <string name="frm_10623">VOLANTE DE ADMISION</string>
+    <string name="frm_10624">PRONTO PAGO</string>
+    <string name="frm_10625">EFECTIVO</string>
+    <string name="frm_10626">INVOLUCRADO</string>
+    <string name="frm_10627">TIPO DE PAGO QUE SE ENTREGA</string>
+
+    <!-- FOTOS -->
+    <string name="fot_99999">jpg</string>
+    <string name="fot_78956">- DIRECTORIO VACIO -</string>
+
+    <!-- CROQUIS -->
+    <string name="crq_12546">-10</string>
+    <string name="crq_87954">ORIGINAL</string>
+    <string name="crq_12547">+10</string>
+
+    <!-- MAPA -->
+    <string name="map_12400">BUSCAR</string>
+    <string name="map_12401">ARRIBO</string>
+    <string name="map_12402">0 MIN</string>
+    <string name="map_12403">0 KM</string>
+
+    <!-- REPORTE -->
+    <string name="rep_12400">SINIESTRO</string>
+    <string name="rep_12401">ASEGURADO</string>
+    <string name="rep_12402">VIGENCIA</string>
+    <string name="rep_12403">INVOLUCRADOS</string>
+    <string name="rep_12404">INFORME</string>
+
+
+    <!-- Generated Android -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sxmp">Map</string>
+    <string name="title_activity_trdt">TRDT</string>
+    <string name="title_activity_cqct">CQCT</string>
+    <string name="title_activity_ifcx">IFCX</string>
+    <string name="title_activity_rpcx">RPCX</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

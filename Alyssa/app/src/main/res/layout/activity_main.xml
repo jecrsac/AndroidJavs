@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/m18800"
+    android:paddingLeft="@dimen/m18800"
+    android:paddingRight="@dimen/m18800"
+    android:paddingTop="@dimen/m18800"
+    tools:context="com.jace.developers.alyssa.MainActivity">
+
+    <!-- SplashScreen Image -->
+    <FrameLayout
+        android:id="@+id/XXN9PJP64"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/XJZXTYPGW"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/app_load" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <ProgressBar
+                android:id="@+id/XG9M7ETSR"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <!-- AnimatedSplash -->
+    <FrameLayout
+        android:id="@+id/XPZ6TUO1X"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/XRY5N75RW"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:background="@color/CNTCC"
+            android:padding="@dimen/m18803">
+
+            <ImageView
+                android:id="@+id/XXRAFPA3X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/m18804"
+                android:contentDescription="@string/app_load" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <!-- ProgressBar -->
+    <FrameLayout
+        android:id="@+id/XXN9PJP65"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:padding="@dimen/m18803">
+
+            <ImageView
+                android:id="@+id/XJ1LM7KVW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/m18804"
+                android:contentDescription="@string/app_load" />
+
+            <ProgressBar
+                android:id="@+id/XECUO7TJJ"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="200dp"
+                android:layout_height="@dimen/m18802"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/m18802"
+                android:max="100"
+                android:progressDrawable="@drawable/apptheme_pbr"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

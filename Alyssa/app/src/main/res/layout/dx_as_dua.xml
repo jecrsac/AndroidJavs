@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_xdu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/m18800"
+    android:paddingLeft="@dimen/m18800"
+    android:paddingRight="@dimen/m18800"
+    android:paddingTop="@dimen/m18800"
+    android:background="@color/CNTEE"
+    android:layout_gravity="top"
+    tools:context="com.jace.developers.alyssa.X99999.DX.AS.XDUA"
+    android:orientation="vertical"
+    android:fillViewport="true">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/XJRQEFUFX"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/CCP01"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/m18800"
+        android:paddingLeft="@dimen/m18800"
+        android:paddingRight="@dimen/m18800"
+        android:paddingTop="@dimen/m18800"
+        android:background="@color/CNTEE"
+        android:layout_gravity="top"
+        tools:context="com.jace.developers.alyssa.X99999.DX.AS.XDUA"
+        android:orientation="vertical"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- DATOS ASEGURADORA -->
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/CARDSG"
+                android:layout_margin="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:textSize="7pt"
+                        android:textColor="@color/CNTEE"
+                        android:gravity="center"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:background="@color/CCP02"
+                        android:text="@string/dua_95700"/>
+
+                    <TextView
+                        android:id="@+id/SGIX"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp" />
+
+                    <TextView
+                        android:id="@+id/COIX"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp" />
+
+                    <TextView
+                        android:id="@+id/CBIX"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="@dimen/m18803">
+
+                        <Button
+                            android:id="@+id/ASSG"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="@string/dua_95701"
+                            android:layout_marginTop="@dimen/m18803"
+                            android:textColor="@color/CNTFF"
+                            android:textSize="@dimen/CLS03"
+                            android:layout_gravity="center_horizontal" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/LY_ASPO"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/m18804">
+
+                            <EditText
+                                android:id="@+id/ASPO"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/f88101"
+                                android:paddingLeft="@dimen/m18802"
+                                android:paddingRight="@dimen/m18802"
+                                android:hint="@string/dua_95702"
+                                android:textColorHint="@color/CNT00"
+                                android:textColor="@color/CNT00"
+                                android:textStyle="normal"
+                                android:textSize="@dimen/CLS03"
+                                android:gravity="center_vertical"
+                                android:inputType="textCapCharacters|textNoSuggestions" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/LY_ASRP"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/m18804">
+
+                            <EditText
+                                android:id="@+id/ASRP"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/f88101"
+                                android:paddingLeft="@dimen/m18802"
+                                android:paddingRight="@dimen/m18802"
+                                android:hint="@string/dua_95703"
+                                android:textColorHint="@color/CNT00"
+                                android:textColor="@color/CNT00"
+                                android:textStyle="normal"
+                                android:textSize="@dimen/CLS03"
+                                android:gravity="center_vertical"
+                                android:inputType="textCapCharacters|textNoSuggestions" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/m18804">
+
+                            <Button
+                                android:id="@+id/ASVD"
+                                android:layout_width="150dp"
+                                android:layout_height="@dimen/f88101"
+                                android:text="@string/dua_95704"
+                                android:textColor="@color/CNTFF"
+                                android:textSize="@dimen/CLS03"
+                                android:layout_gravity="center_horizontal"/>
+
+                            <Button
+                                android:id="@+id/ASVA"
+                                android:layout_width="150dp"
+                                android:layout_height="@dimen/f88101"
+                                android:text="@string/dua_95705"
+                                android:textColor="@color/CNTFF"
+                                android:textSize="@dimen/CLS03"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentEnd="true" />
+
+                        </RelativeLayout>
+
+                        <Button
+                            android:id="@+id/ASCB"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="@string/dua_95706"
+                            android:layout_marginTop="@dimen/m18804"
+                            android:textColor="@color/CNTFF"
+                            android:textSize="@dimen/CLS03"
+                            android:layout_gravity="center_horizontal" />
+
+                        <Button
+                            android:id="@+id/ASCO"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="@string/dua_95707"
+                            android:layout_marginTop="@dimen/m18804"
+                            android:textColor="@color/CNTFF"
+                            android:textSize="@dimen/CLS03"
+                            android:layout_gravity="center_horizontal" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- DATOS ASEGURADO -->
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/CARDAS"
+                android:layout_margin="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:textSize="7pt"
+                        android:textColor="@color/CNTEE"
+                        android:gravity="center"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:background="@color/CCP02"
+                        android:text="@string/dua_95708"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="@dimen/m18803">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/LY_ASNO"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/m18804">
+
+                            <EditText
+                                android:id="@+id/ASNO"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/f88101"
+                                android:paddingLeft="@dimen/m18802"
+                                android:paddingRight="@dimen/m18802"
+                                android:hint="@string/dua_95709"
+                                android:textColorHint="@color/CNT00"
+                                android:textColor="@color/CNT00"
+                                android:textStyle="normal"
+                                android:textSize="@dimen/CLS03"
+                                android:gravity="center_vertical"
+                                android:inputType="textCapCharacters|textNoSuggestions" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/LY_ASAP"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/m18804">
+
+                            <EditText
+                                android:id="@+id/ASAP"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/f88101"
+                                android:paddingLeft="@dimen/m18802"
+                                android:paddingRight="@dimen/m18802"
+                                android:hint="@string/dua_95710"
+                                android:textColorHint="@color/CNT00"
+                                android:textColor="@color/CNT00"
+                                android:textStyle="normal"
+                                android:textSize="@dimen/CLS03"
+                                android:gravity="center_vertical"
+                                android:inputType="textCapCharacters|textNoSuggestions" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/LY_ASAM"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/m18804">
+
+                            <EditText
+                                android:id="@+id/ASAM"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/f88101"
+                                android:paddingLeft="@dimen/m18802"
+                                android:paddingRight="@dimen/m18802"
+                                android:hint="@string/dua_95711"
+                                android:textColorHint="@color/CNT00"
+                                android:textColor="@color/CNT00"
+                                android:textStyle="normal"
+                                android:textSize="@dimen/CLS03"
+                                android:gravity="center_vertical"
+                                android:inputType="textCapCharacters|textNoSuggestions" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/LY_ASTL"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/m18804">
+
+                            <EditText
+                                android:id="@+id/ASTL"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/f88101"
+                                android:paddingLeft="@dimen/m18802"
+                                android:paddingRight="@dimen/m18802"
+                                android:hint="@string/dua_95712"
+                                android:textColorHint="@color/CNT00"
+                                android:textColor="@color/CNT00"
+                                android:textStyle="normal"
+                                android:textSize="@dimen/CLS03"
+                                android:gravity="center_vertical"
+                                android:inputType="number|textCapCharacters|textNoSuggestions" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- DATOS CONDUCTOR -->
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/CARDCD"
+                android:layout_margin="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:textSize="7pt"
+                        android:textColor="@color/CNTEE"
+                        android:gravity="center"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:background="@color/CCP02"
+                        android:text="@string/dua_95721"/>
+
+                    <TextView
+                        android:id="@+id/LCIX"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="@dimen/m18803">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/LY_CDNO"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/m18804">
+
+                            <EditText
+                                android:id="@+id/CDNO"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/f88101"
+                                android:paddingLeft="@dimen/m18802"
+                                android:paddingRight="@dimen/m18802"
+                                android:hint="@string/dua_95709"
+                                android:textColorHint="@color/CNT00"
+                                android:textColor="@color/CNT00"
+                                android:textStyle="normal"
+                                android:textSize="@dimen/CLS03"
+                                android:gravity="center_vertical"
+                                android:inputType="textCapCharacters|textNoSuggestions" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/LY_CDAP"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/m18804">
+
+                            <EditText
+                                android:id="@+id/CDAP"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/f88101"
+                                android:paddingLeft="@dimen/m18802"
+                                android:paddingRight="@dimen/m18802"
+                                android:hint="@string/dua_95710"
+                                android:textColorHint="@color/CNT00"
+                                android:textColor="@color/CNT00"
+                                android:textStyle="normal"
+                                android:textSize="@dimen/CLS03"
+                                android:gravity="center_vertical"
+                                android:inputType="textCapCharacters|textNoSuggestions" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/LY_CDAM"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/m18804">
+
+                            <EditText
+                                android:id="@+id/CDAM"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/f88101"
+                                android:paddingLeft="@dimen/m18802"
+                                android:paddingRight="@dimen/m18802"
+                                android:hint="@string/dua_95711"
+                                android:textColorHint="@color/CNT00"
+                                android:textColor="@color/CNT00"
+                                android:textStyle="normal"
+                                android:textSize="@dimen/CLS03"
+                                android:gravity="center_vertical"
+                                android:inputType="textCapCharacters|textNoSuggestions" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/LY_CDED"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/m18804">
+
+                            <EditText
+                                android:id="@+id/CDED"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/f88101"
+                                android:paddingLeft="@dimen/m18802"
+                                android:paddingRight="@dimen/m18802"
+                                android:hint="@string/dua_95722"
+                                android:textColorHint="@color/CNT00"
+                                android:textColor="@color/CNT00"
+                                android:textStyle="normal"
+                                android:textSize="@dimen/CLS03"
+                                android:gravity="center_vertical"
+                                android:inputType="number|textCapCharacters|textNoSuggestions" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/LY_CDDR"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/m18804">
+
+                            <EditText
+                                android:id="@+id/CDDR"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/f88102"
+                                android:paddingLeft="@dimen/m18802"
+                                android:paddingRight="@dimen/m18802"
+                                android:hint="@string/dua_95723"
+                                android:textColorHint="@color/CNT00"
+                                android:textColor="@color/CNT00"
+                                android:textStyle="normal"
+                                android:textSize="@dimen/CLS03"
+                                android:gravity="center_vertical"
+                                android:lines="10"
+                                android:scrollbars="vertical"
+                                android:inputType="textMultiLine|textCapCharacters|textNoSuggestions" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/LY_CDTL"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/m18804">
+
+                            <EditText
+                                android:id="@+id/CDTL"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/f88101"
+                                android:paddingLeft="@dimen/m18802"
+                                android:paddingRight="@dimen/m18802"
+                                android:hint="@string/dua_95712"
+                                android:textColorHint="@color/CNT00"
+                                android:textColor="@color/CNT00"
+                                android:textStyle="normal"
+                                android:textSize="@dimen/CLS03"
+                                android:gravity="center_vertical"
+                                android:inputType="number|textCapCharacters|textNoSuggestions" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/LY_CDEM"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/m18804">
+
+                            <EditText
+                                android:id="@+id/CDEM"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/f88101"
+                                android:paddingLeft="@dimen/m18802"
+                                android:paddingRight="@dimen/m18802"
+                                android:hint="@string/dua_95724"
+                                android:textColorHint="@color/CNT00"
+                                android:textColor="@color/CNT00"
+                                android:textStyle="normal"
+                                android:textSize="@dimen/CLS03"
+                                android:gravity="center_vertical"
+                                android:inputType="textEmailAddress" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/LY_CDTP"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/m18804">
+
+                            <EditText
+                                android:id="@+id/CDTP"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/f88101"
+                                android:paddingLeft="@dimen/m18802"
+                                android:paddingRight="@dimen/m18802"
+                                android:hint="@string/dua_95726"
+                                android:textColorHint="@color/CNT00"
+                                android:textColor="@color/CNT00"
+                                android:textStyle="normal"
+                                android:textSize="@dimen/CLS03"
+                                android:gravity="center_vertical"
+                                android:inputType="textCapCharacters|textNoSuggestions" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/m18804">
+
+                            <Button
+                                android:id="@+id/CDVD"
+                                android:layout_width="150dp"
+                                android:layout_height="@dimen/f88101"
+                                android:text="@string/dua_95704"
+                                android:textColor="@color/CNTFF"
+                                android:textSize="@dimen/CLS03"
+                                android:layout_gravity="center_horizontal"/>
+
+                            <Button
+                                android:id="@+id/CDVA"
+                                android:layout_width="150dp"
+                                android:layout_height="@dimen/f88101"
+                                android:text="@string/dua_95705"
+                                android:textColor="@color/CNTFF"
+                                android:textSize="@dimen/CLS03"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentEnd="true" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- DATOS VEHICULO -->
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/CARDVH"
+                android:layout_margin="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:textSize="7pt"
+                        android:textColor="@color/CNTEE"
+                        android:gravity="center"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:background="@color/CCP02"
+                        android:text="@string/dua_95713"/>
+
+                    <TextView
+                        android:id="@+id/MRIX"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp" />
+
+                    <TextView
+                        android:id="@+id/TPIX"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp" />
+
+                    <TextView
+                        android:id="@+id/MDIX"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp" />
+
+                    <TextView
+                        android:id="@+id/USIX"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="@dimen/m18803">
+
+                        <Button
+                            android:id="@+id/ASMR"
+                            android:layout_width="match_parent"
+                            android:layout_height="33dp"
+                            android:text="@string/dua_95714"
+                            android:layout_marginTop="@dimen/m18804"
+                            android:textColor="@color/CNTFF"
+                            android:textSize="@dimen/CLS03"
+                            android:layout_gravity="center_horizontal" />
+
+                        <Button
+                            android:id="@+id/ASTP"
+                            android:layout_width="match_parent"
+                            android:layout_height="33dp"
+                            android:text="@string/dua_95715"
+                            android:layout_marginTop="@dimen/m18804"
+                            android:textColor="@color/CNTFF"
+                            android:textSize="@dimen/CLS03"
+                            android:layout_gravity="center_horizontal" />
+
+                        <Button
+                            android:id="@+id/ASMD"
+                            android:layout_width="match_parent"
+                            android:layout_height="33dp"
+                            android:text="@string/dua_95716"
+                            android:layout_marginTop="@dimen/m18804"
+                            android:textColor="@color/CNTFF"
+                            android:textSize="@dimen/CLS03"
+                            android:layout_gravity="center_horizontal" />
+
+                        <Button
+                            android:id="@+id/ASUS"
+                            android:layout_width="match_parent"
+                            android:layout_height="33dp"
+                            android:text="@string/dua_95719"
+                            android:layout_marginTop="@dimen/m18804"
+                            android:textColor="@color/CNTFF"
+                            android:textSize="@dimen/CLS03"
+                            android:layout_gravity="center_horizontal" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/LY_ASCL"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/m18804">
+
+                            <EditText
+                                android:id="@+id/ASCL"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/f88101"
+                                android:paddingLeft="@dimen/m18802"
+                                android:paddingRight="@dimen/m18802"
+                                android:hint="@string/dua_95717"
+                                android:textColorHint="@color/CNT00"
+                                android:textColor="@color/CNT00"
+                                android:textStyle="normal"
+                                android:textSize="@dimen/CLS03"
+                                android:gravity="center_vertical"
+                                android:inputType="textCapCharacters|textNoSuggestions" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/LY_ASPL"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/m18804">
+
+                            <EditText
+                                android:id="@+id/ASPL"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/f88101"
+                                android:paddingLeft="@dimen/m18802"
+                                android:paddingRight="@dimen/m18802"
+                                android:hint="@string/dua_95718"
+                                android:textColorHint="@color/CNT00"
+                                android:textColor="@color/CNT00"
+                                android:textStyle="normal"
+                                android:textSize="@dimen/CLS03"
+                                android:gravity="center_vertical"
+                                android:inputType="textCapCharacters|textNoSuggestions" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/LY_ASSR"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="@dimen/m18804">
+
+                            <EditText
+                                android:id="@+id/ASSR"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/f88101"
+                                android:paddingLeft="@dimen/m18802"
+                                android:paddingRight="@dimen/m18802"
+                                android:hint="@string/dua_95720"
+                                android:textColorHint="@color/CNT00"
+                                android:textColor="@color/CNT00"
+                                android:textStyle="normal"
+                                android:textSize="@dimen/CLS03"
+                                android:gravity="center_vertical"
+                                android:inputType="textCapCharacters|textNoSuggestions" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <!-- BUTTON SAVE -->
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/SAVE"
+                android:layout_margin="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="end"
+                    android:layout_margin="@dimen/m18803">
+
+                    <Button
+                        android:id="@+id/ASSV"
+                        android:layout_width="150dp"
+                        android:layout_height="@dimen/f88101"
+                        android:paddingLeft="@dimen/m18802"
+                        android:paddingRight="@dimen/m18802"
+                        android:text="@string/crd_36105_frm"
+                        android:textColor="@color/CNTFF"
+                        android:textSize="@dimen/CLS03"
+                        android:textAlignment="center"
+                        android:gravity="center_vertical" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

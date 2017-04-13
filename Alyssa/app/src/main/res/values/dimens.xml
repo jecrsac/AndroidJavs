@@ -1,0 +1,54 @@
+<resources>
+    /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    /* MARGINS ·································································· */
+    /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    <dimen name="m18813">100dp</dimen>
+    <dimen name="m18812">70dp</dimen>
+    <dimen name="m18811">50dp</dimen>
+    <dimen name="m18810">45dp</dimen>
+    <dimen name="m18809">40dp</dimen>
+    <dimen name="m18808">35dp</dimen>
+    <dimen name="m18807">30dp</dimen>
+    <dimen name="m18806">25dp</dimen>
+    <dimen name="m18805">20dp</dimen>
+    <dimen name="m18804">15dp</dimen>
+    <dimen name="m18803">10dp</dimen>
+    <dimen name="m18802">5dp</dimen>
+    <dimen name="m18801">3dp</dimen>
+    <dimen name="m18800">0dp</dimen>
+
+    /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    /* CLASS ···································································· */
+    /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    <dimen name="CLS10">27pt</dimen>
+    <dimen name="CLS09">24pt</dimen>
+    <dimen name="CLS08">21pt</dimen>
+    <dimen name="CLS07">18pt</dimen>
+    <dimen name="CLS06">15pt</dimen>
+    <dimen name="CLS05">12pt</dimen>
+    <dimen name="CLS04">9pt</dimen>
+    <dimen name="CLS03">7pt</dimen>
+    <dimen name="CLS02">5pt</dimen>
+    <dimen name="CLS01">3pt</dimen>
+    <dimen name="CLS00">1pt</dimen>
+
+    /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    /* FORMS */
+    /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    <dimen name="f88100">13dp</dimen>
+    <dimen name="f88101">35dp</dimen>
+    <dimen name="f88102">55dp</dimen>
+    <dimen name="f88103">70dp</dimen>
+    <dimen name="f88104">-5dp</dimen>
+    <dimen name="f88105">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">170dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+
+</resources>

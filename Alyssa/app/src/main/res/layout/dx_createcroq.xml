@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dx_createcroq"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/m18800"
+    android:paddingStart="@dimen/m18800"
+    android:paddingLeft="@dimen/m18800"
+    android:paddingRight="@dimen/m18800"
+    android:paddingTop="@dimen/m18800"
+    tools:context="com.jace.developers.alyssa.X99999.DX.CQ.CQNW">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/m18800"
+        android:paddingStart="@dimen/m18800"
+        android:paddingLeft="@dimen/m18800"
+        android:paddingRight="@dimen/m18800"
+        android:paddingTop="@dimen/m18800"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:ignore="UselessParent">
+
+
+        <!-- Top Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/toolbar"
+            android:gravity="center"
+            android:background="@color/CCP05">
+
+            <ImageButton
+                android:id="@+id/btnMove"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="@dimen/m18802"
+                android:background="@drawable/crq_1017"
+                android:contentDescription="@string/app_name" />
+
+            <ImageButton
+                android:id="@+id/btnObjeto"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="@dimen/m18802"
+                android:background="@drawable/crq_1010"
+                android:onClick="onOpenDialogSen"
+                android:contentDescription="@string/app_name" />
+
+            <ImageButton
+                android:id="@+id/btnDraw"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="@dimen/m18802"
+                android:background="@drawable/crq_1011"
+                android:contentDescription="@string/app_name" />
+
+            <ImageButton
+                android:id="@+id/btnCroq"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="@dimen/m18802"
+                android:background="@drawable/crq_1021"
+                android:contentDescription="@string/app_name" />
+
+            <ImageButton
+                android:id="@+id/capturapant"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="@dimen/m18802"
+                android:background="@drawable/crq_1014"
+                android:contentDescription="@string/app_name" />
+
+        </LinearLayout>
+
+        <!-- Custom View -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/grid">
+
+                <RelativeLayout
+                    android:id="@+id/cbxdraw"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" />
+
+                <LinearLayout
+                    android:id="@+id/XRULPLZSX"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/left10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#c3000000"
+                        android:onClick="roclick"
+                        android:padding="10.0dip"
+                        android:text="@string/crq_12546"
+                        android:textColor="#ffffffff"
+                        android:textSize="10.0sp"
+                        tools:ignore="ButtonStyle" />
+
+                    <Button
+                        android:id="@+id/rooriginal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#c3000000"
+                        android:onClick="roclick"
+                        android:padding="10.0dip"
+                        android:text="@string/crq_87954"
+                        android:textColor="#ffffffff"
+                        android:textSize="10.0sp"
+                        tools:ignore="ButtonStyle" />
+
+                    <Button
+                        android:id="@+id/right10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#c3000000"
+                        android:onClick="roclick"
+                        android:padding="10.0dip"
+                        android:text="@string/crq_12547"
+                        android:textColor="#ffffffff"
+                        android:textSize="10.0sp"
+                        tools:ignore="ButtonStyle" />
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <!-- Color Palette -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="@color/CCP05"
+            android:gravity="center_horizontal">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/toolbarDraw"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <!-- <ImageButton
+                        android:id="@+id/btnDrawLine"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="@dimen/m18802"
+                        android:background="@drawable/crq_1011" />
+                        -->
+
+                    <ImageButton
+                        android:id="@+id/btnDrawPaint"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="@dimen/m18802"
+                        android:background="@drawable/crq_1016"
+                        android:contentDescription="@string/app_name" />
+
+                    <ImageButton
+                        android:id="@+id/btnerase"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="@dimen/m18802"
+                        android:background="@drawable/crq_1012"
+                        android:contentDescription="@string/app_name" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/toolbarDrag"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <ImageButton
+                        android:id="@+id/btnDragAct"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="@dimen/m18802"
+                        android:background="@drawable/crq_1018"
+                        android:contentDescription="@string/app_name" />
+
+                    <ImageButton
+                        android:id="@+id/btnDragSen"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="@dimen/m18802"
+                        android:background="@drawable/crq_1019"
+                        android:contentDescription="@string/app_name" />
+
+                    <ImageButton
+                        android:id="@+id/btnDragTra"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="@dimen/m18802"
+                        android:background="@drawable/crq_1020"
+                        android:contentDescription="@string/app_name" />
+
+                    <ImageButton
+                        android:id="@+id/btnDragDel"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="@dimen/m18802"
+                        android:background="@drawable/crq_1015"
+                        android:contentDescription="@string/app_name" />
+
+                    <ImageButton
+                        android:id="@+id/btnDragLok"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="@dimen/m18802"
+                        android:background="@drawable/crq_1013"
+                        android:contentDescription="@string/app_name" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    /* COLORS ··································································· */
+    /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    <color name="CCP00">#689F38</color>/* Color 00 */
+    <color name="CCP01">#8BC34A</color>/* Color 01 */
+    <color name="CCP02">#1A3262</color>/* Color 02 */
+    <color name="CCP03">#990000</color>/* Color 03 */
+    <color name="CCP04">#FFBDBE</color>/* Color 04 */
+    <color name="CCP05">#dee4ee</color>/* Color 05 */
+
+    <color name="CNT00">#000000</color>/* Neutro 00 */
+    <color name="CNT22">#1A1A1A</color>/* Neutro 01 */
+    <color name="CNT44">#2A2A2A</color>/* Neutro 02 */
+    <color name="CNT66">#424242</color>/* Neutro 03 */
+    <color name="CNT88">#727272</color>/* Neutro 04 */
+    <color name="CNTAA">#A2A2A2</color>/* Neutro 05 */
+    <color name="CNTCC">#D0D0D0</color>/* Neutro 06 */
+    <color name="CNTEE">#E6E6E6</color>/* Neutro 07 */
+    <color name="CNTFF">#FFFFFF</color>/* Neutro 08 */
+
+
+</resources>

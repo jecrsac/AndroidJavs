@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.jace.developers.alyssa.X99999.UX.UXST">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/fotoPerfil"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#ffffff"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m18804"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/CCP02"
+        android:textSize="@dimen/CLS04"
+        android:textStyle="bold|italic"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/EMAIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m18804"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/CCP02"
+        android:textSize="@dimen/CLS04"
+        android:textStyle="bold|italic"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/TEL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m18804"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/CCP02"
+        android:textSize="@dimen/CLS04"
+        android:textStyle="bold|italic"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/XSSJVNFCN"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <Button
+        android:id="@+id/status"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:text="@string/crd_36108_frm"
+        android:layout_marginTop="@dimen/m18804"
+        android:textColor="@color/CNTFF"
+        android:textSize="@dimen/CLS03"
+        android:background="@color/CCP02"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

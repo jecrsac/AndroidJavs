@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fx_tomafoto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.jace.developers.alyssa.X99999.DX.FT.FXFT">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/m18800"
+        android:paddingLeft="@dimen/m18800"
+        android:paddingRight="@dimen/m18800"
+        android:paddingTop="@dimen/m18800"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ImageView
+            android:id="@+id/XB2C1EOFT"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/noimage"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/XYKE2183N"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:textStyle="italic|bold"
+            android:textColor="@color/CCP02"
+            android:layout_toRightOf="@+id/XB2C1EOFT"
+            android:layout_toEndOf="@+id/XB2C1EOFT"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/XYKE2183T"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/XYKE2183F"
+            android:layout_alignLeft="@+id/XYKE2183F"
+            android:layout_alignStart="@+id/XYKE2183F"
+            android:layout_marginBottom="32dp"
+            android:textStyle="italic|bold"
+            android:textColor="@color/CCP02"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/XYKE2183F"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/XB2C1EOFT"
+            android:layout_alignLeft="@+id/XYKE2183N"
+            android:layout_alignStart="@+id/XYKE2183N"
+            android:layout_marginBottom="21dp"
+            android:textStyle="italic|bold"
+            android:textColor="@color/CCP02"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/btn_camara"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:src="@drawable/i33034"
+            android:layout_below="@+id/XB2C1EOFT"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="121dp"
+            android:contentDescription="@string/app_name" />
+
+    </RelativeLayout>
+
+</LinearLayout>

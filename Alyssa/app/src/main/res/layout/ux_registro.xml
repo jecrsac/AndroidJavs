@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/m18800"
+    android:paddingLeft="@dimen/m18800"
+    android:paddingRight="@dimen/m18800"
+    android:paddingTop="@dimen/m18800"
+    tools:context=".X99999.UX.UXRG">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fnd_02"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/app_name"
+        android:alpha="0.6"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/m18800"
+        android:paddingLeft="@dimen/m18809"
+        android:paddingRight="@dimen/m18809"
+        android:paddingTop="@dimen/m18800"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:gravity="center"
+        android:layout_gravity="top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="top">
+
+            <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:fillViewport="true"
+                tools:ignore="UselessParent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/m18802"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="@string/crd_73000"
+                        android:textColor="@color/CCP02"
+                        android:textSize="12pt"
+                        android:textStyle="bold|italic"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center"
+                        android:textAlignment="center" />
+
+                    <!-- HIDDEN -->
+                    <EditText
+                        android:id="@+id/X33104"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:focusable="false"
+                        android:maxLines="0"
+                        android:inputType="textNoSuggestions"/>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/m18804">
+
+                        <EditText
+                            android:id="@+id/X33100"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/f88101"
+                            android:paddingLeft="@dimen/m18802"
+                            android:paddingRight="@dimen/m18802"
+                            android:hint="@string/crd_36100_frm"
+                            android:textColorHint="@color/CNT00"
+                            android:textColor="@color/CNT00"
+                            android:textStyle="normal"
+                            android:textSize="@dimen/CLS03"
+                            android:gravity="center_vertical"
+                            android:inputType="textCapCharacters" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_ap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/m18804">
+
+                        <EditText
+                            android:id="@+id/X33101"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/f88101"
+                            android:paddingLeft="@dimen/m18802"
+                            android:paddingRight="@dimen/m18802"
+                            android:hint="@string/crd_36101_frm"
+                            android:textColorHint="@color/CNT00"
+                            android:textColor="@color/CNT00"
+                            android:textStyle="normal"
+                            android:textSize="@dimen/CLS03"
+                            android:gravity="center_vertical"
+                            android:inputType="textCapCharacters" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_tl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/m18804">
+
+                        <EditText
+                            android:id="@+id/X33102"
+                            android:inputType="phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/f88101"
+                            android:layout_marginTop="@dimen/m18804"
+                            android:paddingLeft="@dimen/m18802"
+                            android:paddingRight="@dimen/m18802"
+                            android:hint="@string/crd_36102_frm"
+                            android:textColorHint="@color/CNT00"
+                            android:textColor="@color/CNT00"
+                            android:textStyle="normal"
+                            android:textSize="@dimen/CLS03"
+                            android:gravity="center_vertical"/>
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_ce"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/m18804">
+
+                        <EditText
+                            android:id="@+id/X33103"
+                            android:inputType="textEmailAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/f88101"
+                            android:layout_marginTop="@dimen/m18804"
+                            android:paddingLeft="@dimen/m18802"
+                            android:paddingRight="@dimen/m18802"
+                            android:hint="@string/crd_36103_frm"
+                            android:textColorHint="@color/CNT00"
+                            android:textColor="@color/CNT00"
+                            android:textStyle="normal"
+                            android:textSize="@dimen/CLS03"
+                            android:gravity="center_vertical"
+                            app:errorTextAppearance="@style/error_appearance"/>
+
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/m18806">
+
+                        <ImageView
+                            android:id="@+id/ftPERFIL"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginEnd="@dimen/m18803"
+                            android:layout_marginRight="@dimen/m18803"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center"
+                            android:src="@drawable/x95901"
+                            android:contentDescription="@string/crd_36107_frm" />
+
+                        <Button
+                            android:id="@+id/B77000"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/f88101"
+                            android:text="@string/crd_36105_frm"
+                            android:textColor="@color/CNTFF"
+                            android:textSize="@dimen/CLS04"
+                            android:textAlignment="center"
+                            android:gravity="center_vertical"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/ftPERFIL"
+                            android:layout_toEndOf="@+id/ftPERFIL" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+        <!-- Legals -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/app_legales"
+                android:textColor="@color/CNT22"
+                android:textSize="@dimen/CLS02"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

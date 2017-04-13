@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "347065139258",
+    "firebase_url": "https://cibox-e1c0d.firebaseio.com",
+    "project_id": "cibox-e1c0d",
+    "storage_bucket": "cibox-e1c0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347065139258:android:06f0607bc901942e",
+        "android_client_info": {
+          "package_name": "com.jace.developers.alyssa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347065139258-qbirgafpt0jcntfga89p5vkbn7v2be01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtE8187w9M7jdYPfscCJbwwHT5xH03to4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

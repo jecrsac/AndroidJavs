@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/CNTEE"
+    tools:context="com.jace.developers.alyssa.X99999.DX.TR.TRLT">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/content_trlt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/m18800"
+        android:paddingLeft="@dimen/m18800"
+        android:paddingRight="@dimen/m18800"
+        android:paddingTop="@dimen/m18800"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.jace.developers.alyssa.X99999.DX.TR.TRLT"
+        tools:showIn="@layout/tr_listadeterceros">
+
+        <TextView
+            android:id="@+id/XFKN7IDKO"
+            android:text="@string/app_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/m18810"
+            android:textStyle="italic|bold"
+            android:textSize="@dimen/CLS04"
+            android:textColor="@color/CCP02"
+            android:visibility="gone"/>
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/XCEIWSC3T"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:scrollbars="vertical"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

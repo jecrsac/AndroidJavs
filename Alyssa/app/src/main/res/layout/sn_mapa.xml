@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="@dimen/m18801">
+
+        <EditText
+            android:id="@+id/etDestination"
+            android:layout_width="309dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:maxLines="1"
+            android:paddingStart="@dimen/m18802"
+            android:paddingLeft="@dimen/m18802"
+            android:paddingRight="@dimen/m18802"
+            style="@style/EditTextDefault"
+            android:layout_toLeftOf="@+id/btnFindPath"
+            android:layout_toStartOf="@+id/btnFindPath"
+            android:inputType="textAutoComplete" />
+
+        <Button
+            android:id="@+id/btnFindPath"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:text="@string/map_12400"
+            android:textColor="@color/CNTFF"
+            android:textSize="@dimen/CLS03"
+            android:layout_alignTop="@+id/etDestination"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/m18802">
+
+        <ImageView
+            android:layout_marginLeft="@dimen/m18805"
+            android:layout_marginStart="@dimen/m18805"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_distance"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/map_12402"
+            android:id="@+id/tvDistance"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_marginLeft="@dimen/m18805"
+            android:layout_marginStart="@dimen/m18805"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_clock"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/map_12402"
+            android:id="@+id/tvDuration"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/XRKNI564Z"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/m18804"
+            android:layout_marginStart="@dimen/m18804"
+            android:text="@string/map_12401"
+            android:textColor="@color/CNTFF"
+            android:textSize="@dimen/CLS03" />
+
+    </LinearLayout>
+
+
+    <fragment
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.jace.developers.alyssa.X99999.SX.SXMP" />
+
+    </LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/alyssa_bolita"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/app_name" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/m18802" >
+
+            <!-- Respuesta -->
+            <TextView
+                android:id="@+id/XIF71YHRS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/XIF71YHPR"
+                android:layout_marginTop="12dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <!-- Fecha -->
+            <TextView
+                android:id="@+id/XIF71YHFC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textSize="@dimen/CLS03"
+                android:textStyle="italic|bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/CNT22"
+                tools:ignore="RelativeOverlap" />
+
+            <!-- Pregunta -->
+            <TextView
+                android:id="@+id/XIF71YHPR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:paddingEnd="@dimen/m18802"
+                android:paddingLeft="@dimen/m18802"
+                android:paddingRight="@dimen/m18802"
+                android:textSize="@dimen/CLS03"
+                android:textStyle="italic|bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/m18800"
+    android:paddingLeft="@dimen/m18800"
+    android:paddingRight="@dimen/m18800"
+    android:paddingTop="@dimen/m18800"
+    tools:context=".X99999.SX.SXCL">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fnd_02"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/app_name"
+        android:alpha="0.6"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/m18800"
+        android:paddingLeft="@dimen/m18809"
+        android:paddingRight="@dimen/m18809"
+        android:paddingTop="@dimen/m18800"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:gravity="center"
+        android:layout_gravity="top">
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/XT7PT0ZFV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="@color/CCP02"
+                    android:textSize="12pt"
+                    android:textStyle="bold|italic"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_snmc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/m18804">
+
+                    <EditText
+                        android:id="@+id/XHGQ1SLRY"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:paddingTop="@dimen/m18803"
+                        android:paddingLeft="@dimen/m18803"
+                        android:paddingRight="@dimen/m18803"
+                        android:hint="@string/snt_99206_frm"
+                        android:textColorHint="@color/CNT00"
+                        android:textColor="@color/CNT00"
+                        android:textStyle="normal"
+                        android:textSize="@dimen/CLS03"
+                        android:gravity="top|start"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:inputType="textMultiLine|textCapCharacters|textNoSuggestions"
+                        android:ems="10"
+                        android:layout_gravity="center_horizontal" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:id="@+id/XWEANF597"
+                    android:layout_width="160dp"
+                    android:layout_height="@dimen/f88101"
+                    android:layout_marginTop="@dimen/m18806"
+                    android:text="@string/crd_36105_frm"
+                    android:textColor="@color/CNTFF"
+                    android:textSize="@dimen/CLS04"
+                    android:textAlignment="center"
+                    android:gravity="center_vertical"
+                    android:onClick="onClickSend" />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

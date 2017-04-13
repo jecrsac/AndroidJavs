@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sn_acciones"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/m18800"
+    android:paddingLeft="@dimen/m18800"
+    android:paddingRight="@dimen/m18800"
+    android:paddingTop="@dimen/m18800"
+    tools:context="com.jace.developers.alyssa.X99999.SX.SXAC">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fnd_02"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/app_name"
+        android:alpha="0.6"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/m18800"
+        android:paddingLeft="@dimen/m18809"
+        android:paddingRight="@dimen/m18809"
+        android:paddingTop="@dimen/m18800"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:gravity="center"
+        android:layout_gravity="top">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="@string/snt_33800_flw"
+            android:textColor="@color/CCP02"
+            android:textSize="12pt"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/XI7MD9KGX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/m18806"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/CCP03"
+            android:textSize="12pt"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"/>
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_gravity="center_vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/sinINI"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="@dimen/m18803"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center"
+                        android:alpha="0.8"
+                        android:src="@drawable/x95903"/>
+
+                    <Button
+                        android:id="@+id/S33100"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/f88101"
+                        android:text="@string/snt_33100_flw"
+                        android:textColor="@color/CNTFF"
+                        android:textSize="@dimen/CLS04"
+                        android:textAlignment="center"
+                        android:gravity="center_vertical"
+                        android:alpha="0.9"
+                        android:onClick="onClickINI"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/sinINI"
+                        android:layout_toEndOf="@+id/sinINI"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/m18804">
+
+                    <ImageView
+                        android:id="@+id/sinCAN"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="@dimen/m18803"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center"
+                        android:alpha="0.8"
+                        android:src="@drawable/x95904"/>
+
+                    <Button
+                        android:id="@+id/S33200"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/f88101"
+                        android:text="@string/snt_33200_flw"
+                        android:textColor="@color/CNTFF"
+                        android:textSize="@dimen/CLS04"
+                        android:textAlignment="center"
+                        android:gravity="center_vertical"
+                        android:alpha="0.9"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/sinCAN"
+                        android:layout_toEndOf="@+id/sinCAN"
+                        android:onClick="onClickCAN" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/m18804">
+
+                    <ImageView
+                        android:id="@+id/sinNLO"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="@dimen/m18803"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center"
+                        android:alpha="0.8"
+                        android:src="@drawable/x95905"/>
+
+                    <Button
+                        android:id="@+id/S33300"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/f88101"
+                        android:text="@string/snt_33300_flw"
+                        android:textColor="@color/CNTFF"
+                        android:textSize="@dimen/CLS04"
+                        android:textAlignment="center"
+                        android:gravity="center_vertical"
+                        android:alpha="0.9"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/sinNLO"
+                        android:layout_toEndOf="@+id/sinNLO"
+                        android:onClick="onClickLOC" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/m18804">
+
+                    <ImageView
+                        android:id="@+id/sinARR"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="@dimen/m18803"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center"
+                        android:alpha="0.8"
+                        android:src="@drawable/x95906"/>
+
+                    <Button
+                        android:id="@+id/S33400"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/f88101"
+                        android:text="@string/snt_33400_flw"
+                        android:textColor="@color/CNTFF"
+                        android:textSize="@dimen/CLS04"
+                        android:textAlignment="center"
+                        android:gravity="center_vertical"
+                        android:alpha="0.9"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/sinARR"
+                        android:layout_toEndOf="@+id/sinARR"
+                        android:onClick="onClickARR" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</FrameLayout>

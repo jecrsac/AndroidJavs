@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gd_guiadeslinde"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/m18800"
+    android:paddingLeft="@dimen/m18800"
+    android:paddingRight="@dimen/m18800"
+    android:paddingTop="@dimen/m18800"
+    tools:context="com.jace.developers.alyssa.X99999.GX.GXGD">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fnd_02"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/app_name"
+        android:alpha="0.6"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:gravity="center"
+        android:layout_gravity="top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="top">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/m18805"
+                android:layout_marginBottom="@dimen/m18802"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/des_10620"
+                android:textColor="@color/CCP02"
+                android:textSize="@dimen/CLS05"
+                android:textStyle="italic|bold"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="50dp"
+                        android:background="@color/CCP00"
+                        android:text="@string/des_10622"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/CNTFF"
+                        android:textSize="@dimen/CLS05"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:text="@string/des_10621"
+                        android:textColor="@color/CCP02"
+                        android:textSize="@dimen/CLS04"
+                        android:textStyle="italic|bold"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="top"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="50dp"
+                        android:background="@color/CCP00"
+                        android:text="@string/des_10623"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/CNTFF"
+                        android:textSize="@dimen/CLS05" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <android.support.v7.widget.RecyclerView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/XP7K1NFC0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                android:scrollbars="vertical" />
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/XW4Q10XUJ"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:text="@string/des_10626"
+                    android:textSize="@dimen/CLS05"
+                    android:textStyle="bold"
+                    android:textColor="@color/CCP04"
+                    android:background="@color/CCP03"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical" />
+
+                <RelativeLayout
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@color/CCP00">
+
+                    <ImageButton
+                        android:id="@+id/XIWMCYJXI"
+                        android:layout_width="55dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/next"
+                        android:contentDescription="@string/app_name" />
+
+                </RelativeLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

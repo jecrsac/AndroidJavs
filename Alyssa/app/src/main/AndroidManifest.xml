@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jace.developers.alyssa">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:name=".X80784.X86082.X86082"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="InnerclassSeparator">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".X80784.X80980.X46160"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".X80784.X80980.X46161"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote">
+            <intent-filter android:priority="10">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".X99999.UX.UXRG"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".X99999.CX.CXMN"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".X99999.SX.SXNW"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".X99999.SX.SXMC"
+            android:screenOrientation="portrait" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".X99999.SX.SXMP"
+            android:label="@string/title_activity_sxmp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".X99999.SX.SXAC"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".X99999.SX.SXPL"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".X99999.SX.SXCL"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".X99999.MX.MXSN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".X99999.DX.AS.XDUA"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".X99999.DX.FT.FXCT"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".X99999.DX.TR.TRLT"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".X99999.DX.TR.TRFR"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".X99999.GX.GXGD"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".X99999.GX.GXTX"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".X99999.GX.GXMD"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".X99999.GX.GXRS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".X99999.GX.GXTS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".X99999.DX.TR.TRDT"
+            android:label="@string/title_activity_trdt"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".X99999.DX.FT.FXFT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".X99999.DX.CQ.CQNW"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".X99999.DX.CQ.CQCT"
+            android:label="@string/title_activity_cqct"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".X99999.DX.IF.RPCX"
+            android:label="@string/title_activity_rpcx"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

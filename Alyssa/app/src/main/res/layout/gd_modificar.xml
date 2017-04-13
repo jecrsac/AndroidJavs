@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gd_modificar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/m18800"
+    android:paddingLeft="@dimen/m18800"
+    android:paddingRight="@dimen/m18800"
+    android:paddingTop="@dimen/m18800"
+    tools:context="com.jace.developers.alyssa.X99999.GX.GXMD">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fnd_02"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/app_name"
+        android:alpha="0.6"/>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/m18800"
+            android:paddingLeft="@dimen/m18809"
+            android:paddingRight="@dimen/m18809"
+            android:paddingTop="@dimen/m18807"
+            android:orientation="vertical"
+            android:gravity="top">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/m18804"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/des_10625"
+                android:textColor="@color/CCP02"
+                android:textSize="@dimen/CLS05"
+                android:textStyle="italic|bold"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/XAI1L4A1H"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/m18804"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@color/CCP03"
+                android:textSize="@dimen/CLS04"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"/>
+
+            <Spinner
+                android:id="@+id/XABJTMWL8"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/f88101"
+                android:paddingLeft="@dimen/m18802"
+                android:paddingRight="@dimen/m18802"
+                android:textColor="@color/CNT22"
+                android:textSize="@dimen/CLS03"
+                android:gravity="center_vertical"
+                android:entries="@array/res_arrays"
+                android:prompt="@string/Responsabilidad"
+                android:layout_marginBottom="@dimen/m18803" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/m18804">
+
+                <EditText
+                    android:id="@+id/XZRTC4K8Y"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:paddingLeft="@dimen/m18803"
+                    android:paddingRight="@dimen/m18803"
+                    android:paddingTop="@dimen/m18803"
+                    android:ems="10"
+                    android:gravity="top|start"
+                    android:textSize="@dimen/CLS03"
+                    android:hint="@string/res_84750"
+                    android:layout_marginTop="@dimen/m18804"
+                    android:layout_gravity="center_horizontal"
+                    android:inputType="textMultiLine|textCapCharacters|textNoSuggestions" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/XGD5SQ16E"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/f88101"
+                android:layout_marginTop="@dimen/m18805"
+                android:text="@string/crd_36105_frm"
+                android:textColor="@color/CNTFF"
+                android:textSize="@dimen/CLS04"
+                android:textAlignment="center"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

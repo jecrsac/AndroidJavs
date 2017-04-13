@@ -1,0 +1,521 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/m18800"
+    android:paddingLeft="@dimen/m18800"
+    android:paddingRight="@dimen/m18800"
+    android:paddingTop="@dimen/m18800"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    tools:context="com.jace.developers.alyssa.X99999.DX.IF.RPCX$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- DATOS ASEGURADORA -->
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/CARDSG"
+            android:layout_margin="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="8dp"
+            card_view:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:textSize="7pt"
+                    android:textColor="@color/CNTEE"
+                    android:gravity="center"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:background="@color/CCP02"
+                    android:text="@string/rep_12400"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <!-- Siniestro -->
+                    <TextView
+                        android:id="@+id/S13950N"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_margin="@dimen/m18802"/>
+                    <!-- Poliza -->
+                    <TextView
+                        android:id="@+id/S13951N"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_margin="@dimen/m18802" />
+                    <!-- Estatus -->
+                    <TextView
+                        android:id="@+id/S13952N"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_margin="@dimen/m18802" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- DATOS ASEGURADO -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/CARDAS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="8dp"
+            card_view:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:textSize="7pt"
+                    android:textColor="@color/CNTEE"
+                    android:gravity="center"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:background="@color/CCP02"
+                    android:text="@string/rep_12401"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:text="@string/dua_95700"/>
+                    <TextView
+                        android:id="@+id/A13950S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:text="@string/rep_12402"/>
+                    <TextView
+                        android:id="@+id/A13951S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:text="@string/dua_95706"/>
+                    <TextView
+                        android:id="@+id/A13952S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:text="@string/dua_95707"/>
+                    <TextView
+                        android:id="@+id/A13953S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:text="@string/dua_95709"/>
+                    <TextView
+                        android:id="@+id/A13954S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:text="@string/dua_95712"/>
+                    <TextView
+                        android:id="@+id/A13955S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS03"
+                        android:text="@string/dua_95721"
+                        android:textAlignment="center"
+                        android:textColor="@color/CCP02"
+                        android:textStyle="bold|italic"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:text="@string/dua_95709"/>
+                    <TextView
+                        android:id="@+id/A13956S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:text="@string/dua_95722"/>
+                    <TextView
+                        android:id="@+id/A13957S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:text="@string/dua_95712"/>
+                    <TextView
+                        android:id="@+id/A13958S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:text="@string/dua_95724"/>
+                    <TextView
+                        android:id="@+id/A13959S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:text="@string/dua_95726"/>
+                    <TextView
+                        android:id="@+id/A13960S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:text="@string/rep_12402"/>
+                    <TextView
+                        android:id="@+id/A13961S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS03"
+                        android:text="@string/dua_95713"
+                        android:textAlignment="center"
+                        android:textColor="@color/CCP02"
+                        android:textStyle="bold|italic"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:text="@string/dua_95714"/>
+                    <TextView
+                        android:id="@+id/A13962S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:text="@string/dua_95715"/>
+                    <TextView
+                        android:id="@+id/A13963S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:text="@string/dua_95716"/>
+                    <TextView
+                        android:id="@+id/A13964S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:text="@string/dua_95719"/>
+                    <TextView
+                        android:id="@+id/A13965S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:text="@string/dua_95718"/>
+                    <TextView
+                        android:id="@+id/A13966S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/m18803">
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:text="@string/dua_95720"/>
+                    <TextView
+                        android:id="@+id/A13967S"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/CLS02"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- DATOS TERCEROS -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/CARDTR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="8dp"
+            card_view:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="@dimen/m18810">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:textSize="7pt"
+                    android:textColor="@color/CNTEE"
+                    android:gravity="center"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:background="@color/CCP02"
+                    android:text="@string/rep_12403"/>
+
+                <android.support.v7.widget.RecyclerView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/XN3BCJ1SY"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:scrollbars="vertical" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
